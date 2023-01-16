@@ -1,0 +1,566 @@
+@charset "uft-8";
+
+html {
+	-webkit-text-size-adjust: none;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	font-family: "Arial", "Dotum", "sans-serif";
+	font-size: 12px;
+	/* [disabled]color:#333; */
+	line-height: 1.6em;
+	font-weight: normal;
+}
+
+div,
+p,
+ul,
+li,
+table,
+th,
+td,
+textarea,
+input,
+span,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dt,
+dl,
+dd,
+em,
+sup {
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+}
+
+ul,
+ol,
+dl,
+dd,
+dt,
+li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	line-height: 1.6em;
+}
+
+form,
+fieldset,
+p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+table {
+	width: 100%;
+	table-layout: fixed;
+}
+
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+	border-collapse: separate;
+	border-spacing: 0;
+	table-layout: fixed;
+}
+
+/*border:none; separate*/
+/* 6 */
+* html table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+	border-collapse: collapse;
+}
+
+/* 7 */
+*+html table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+	border-collapse: collapse;
+}
+
+table th {
+	font-weight: bold;
+}
+
+legend {
+	display: none;
+	position: absolute;
+	visibility: hidden;
+}
+
+caption {
+	visibility: hidden;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+
+img {
+	border: 0;
+	vertical-align: middle;
+	outline: none;
+}
+
+optgroup {
+	font-style: normal;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+}
+
+input,
+select {
+	font-family: "Arial", "Dotum", "sans-serif";
+	font-size: 12px;
+	margin: 0;
+	vertical-align: middle;
+	color: #999;
+}
+
+label {
+	cursor: pointer;
+}
+
+address {
+	font-style: normal;
+	font-weight: normal;
+}
+
+legend,
+caption {
+	display: none;
+	clear: both;
+}
+
+input,
+textarea,
+select,
+button,
+table {
+	font-size: inherit;
+	font-family: inherit;
+	line-height: inherit;
+}
+
+section,
+nav,
+article,
+aside,
+hgroup,
+header,
+footer {
+	display: block;
+}
+
+textarea,
+input {
+	background: url(none);
+	-webkit-border-radius: 1px;
+	-webkit-apprearance: none;
+}
+
+textarea {
+	resize: none;
+}
+
+label {
+	cursor: pointer;
+}
+
+input.radio {
+	width: 12px;
+	height: 12px;
+}
+
+input.checkbox {
+	width: 12px;
+	height: 12px;
+}
+
+/* 링크 */
+a {
+	text-decoration: none;
+	color: #929292;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #929292;
+	outline: none;
+}
+
+a:hover,
+a:focus,
+a:current {
+	text-decoration: none;
+	outline: none;
+}
+
+.bg_none {
+	background: none !important;
+}
+
+.brd_none {
+	border: none !important;
+}
+
+.clear {
+	*zoom: 1;
+}
+
+.clear:after {
+	content: " ";
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+
+.wrap {
+	width: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.inv1 img {
+	width: 100%;
+}
+
+.clear img {
+	width: 100%;
+}
+
+.slick-arrow img {
+	width: 100%;
+}
+
+.img-button {
+	width: 100%;
+}
+
+.contact .side {
+	display: block;
+	float: left;
+	width: 30%;
+}
+
+.contact .mid {
+	display: block;
+	float: left;
+	width: 20%;
+}
+
+.bank-wrapper a {
+	display: block;
+	float: left;
+	width: 50%;
+}
+
+.navi-side {
+	display: block;
+	float: left;
+	width: 20%;
+}
+
+.navi a {
+	display: block;
+	float: left;
+	width: 20%;
+}
+
+.wrap_controllers {
+	display: none !important;
+}
+
+.map {
+	width: 100% !important;
+}
+
+.map #itfsMap {
+	width: 99% !important;
+	margin: 0 auto;
+}
+
+.map #itfsMap .nmap {
+	width: 100% !important;
+}
+
+.smsArea {
+	padding: 0 10%;
+	background-color: #FFFFFF;
+}
+
+.smsArea .sms1 a {
+	display: block;
+	float: right;
+	width: 48%;
+}
+
+.smsArea .sms1 a:first-child {
+	float: left;
+}
+
+.smsArea .sms2 {
+	padding-top: 10px;
+}
+
+.smsArea .sms2 a {
+	display: block;
+}
+
+.map>div:nth-child(2) {
+	display: none !important;
+}
+
+
+.gallery-wrapper {
+	background-image: url(../img/bg_2_gallery_wrapper.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;
+}
+
+.slider-single-wrapper {
+	background-image: url(../img/bg_2_gallery.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;
+}
+
+.slider-single {
+	display: block;
+}
+
+.slider-single img {
+	width: 90%;
+	margin-left: 5%;
+}
+
+.slider-nav,
+.prev,
+.next {
+	float: left;
+}
+
+.prev,
+.next {
+	width: 10%;
+}
+
+.slider-nav {
+	background-image: url(../img/bg_3_slider_mid.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;
+	width: 80%;
+}
+
+.slider-nav img {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.slider-nav .slick-slide {
+	cursor: pointer;
+}
+
+.video-wrapper {
+	background-image: url(../img/bg_4_video.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;
+}
+
+video {
+	width: 90%;
+	margin-left: 5%;
+}
+
+.slick-track {
+	display: flex !important;
+}
+
+.slick-slide {
+	height: inherit !important;
+}
+
+.modal {
+	visibility: hidden;
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal.on {
+	visibility: visible;
+}
+
+.modal-content {
+	background-color: #fefefe;
+	margin: 30vh auto;
+	padding: 20px 20px 50px;
+	border: 1px solid #888;
+	width: 80%;
+	max-width: 300px;
+}
+
+.modal-content.height1 {
+	margin: 30vh auto;
+}
+
+.modal-content.height2 {
+	margin: 25vh auto;
+}
+
+.modal-content.height3 {
+	margin: 20vh auto;
+}
+
+.close {
+	color: #111111;
+	float: right;
+	font-size: 25px !important;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.modal-content {
+	border-radius: 5px;
+}
+
+#bank * {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+#bank .title {
+	color: #222222;
+	font-size: 14px
+}
+
+#bank .name {
+	float: right;
+	font-weight: 700;
+	margin-right: 3px;
+}
+
+#bank .name:before {
+	content: "예금주 : ";
+	font-weight: 400;
+}
+
+#bank .bankname {
+	margin-top: 30px;
+}
+
+#bank .account {}
+
+#bank .text_input {
+	margin-top: 8px;
+	background: #e9e9e9;
+	border-radius: 5px;
+	position: relative;
+	padding: 10px;
+}
+
+#bank .btn_bank_copy {
+	color: #667788;
+	font-weight: 700;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 0px 15px;
+	background: transparent;
+	border: 0px;
+	font-size: 14px;
+	height: 39px;
+	line-height: 39px;
+}
+
+/* Tooltip text */
+.tooltiptext {
+	display: none;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 1;
+	top: 113%;
+	eft: 50%;
+	margin-left: -60px;
+}
+
+.tooltiptext1 {
+	font-size: 13px !important;
+	width: 170px;
+	/*background-color: #f8f8f8;*/
+	color: #000;
+	text-align: center;
+	padding: 6px 0;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 1;
+	top: 121%;
+	left: 50%;
+	margin-left: -85px;
+}
+
+.bank_group {
+	position: relative;
+	display: none;
+}
