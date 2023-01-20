@@ -570,3 +570,7 @@ video {
 	top: 50%;
 	transform: translateY(-50%);
 }
+
+.slick-slider {
+	touch-action: auto !important;
+}
