@@ -80,8 +80,7 @@ $(document).ready(function () {
 	canvas.width = W;
 	canvas.height = H;
 
-	$('canvas').sakura();
-
+	$('html').sakura();
 
 	var txt_copy_normal = "복사버튼을 눌러주세요.";
 	var txt_copy_success = "복사 되었습니다.";
