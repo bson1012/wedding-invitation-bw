@@ -70,6 +70,16 @@ function nNavi() {
 
 
 $(document).ready(function () {
+	//canvas init
+	var canvas = document.getElementById("canvas");
+	var ctx = canvas.getContext("2d");
+
+	//canvas dimensions
+	var W = window.innerWidth;
+	var H = window.innerHeight;
+	canvas.width = W;
+	canvas.height = H;
+
 	$('.home-wrap').sakura();
 
 	var txt_copy_normal = "복사버튼을 눌러주세요.";
