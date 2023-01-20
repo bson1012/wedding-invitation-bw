@@ -114,7 +114,7 @@
                     'margin-top': startPosTop,
                     width: size
                 })
-                .appendTo('body');
+                .appendTo('.wrap');
         };
 
 
