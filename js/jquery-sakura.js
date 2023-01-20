@@ -54,7 +54,7 @@
         var defaults = {
             blowAnimations: ['blow-soft-left', 'blow-medium-left', 'blow-hard-left', 'blow-soft-right', 'blow-medium-right', 'blow-hard-right'],
             className: 'sakura',
-            fallSpeed: 1.5,
+            fallSpeed: 1,
             maxSize: 14,
             minSize: 9,
             newOn: 200,
@@ -69,7 +69,7 @@
         var sakura = $('<div class="' + options.className + '" />');
 
         // Set the overflow-x CSS property on the body to prevent horizontal scrollbars.
-        $('.wrap').css({ 'overflow-x': 'hidden' });
+        $('.home-wrap').css({ 'overflow-x': 'hidden' });
 
         // Function that inserts new petals into the document.
         var petalCreator = function () {
