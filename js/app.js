@@ -60,7 +60,7 @@ function tNavi() {
 }
 
 function nNavi() {
-	window.open("https://m.map.naver.com/directions/?" + 'ename=' + destination + "&ex=" + lon + "&ey=" + lat);
+	window.open("https://map.naver.com/?menu=location&pinType=place&title=" + destination + "&lng=" + lon + "&lat=" + lat);
 }
 
 // modal
