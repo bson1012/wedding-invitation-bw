@@ -70,6 +70,7 @@
 
         // Set the overflow-x CSS property on the body to prevent horizontal scrollbars.
         $('body').css({ 'overflow-x': 'hidden' });
+        $('canvas').css({ 'overflow-x': 'hidden' });
 
         // Function that inserts new petals into the document.
         var petalCreator = function () {
