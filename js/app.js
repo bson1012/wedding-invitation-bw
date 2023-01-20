@@ -42,9 +42,11 @@ var lat = 37.5111873
 var lon = 127.0316618;
 var destination = '엘리에나 호텔';
 
-Kakao.init('33581ec31404af43397f6bf90c202f3a');
-
 function kNavi() {
+	if (!Kakao.init) {
+		Kakao.init('33581ec31404af43397f6bf90c202f3a')
+	}
+
 	Kakao.Navi.start({
 		name: destination,
 		x: lon,
