@@ -114,7 +114,7 @@
                     'margin-top': startPosTop,
                     width: size
                 })
-                .appendTo('.wrap');
+                .appendTo('.home-wrap');
         };
 
 
