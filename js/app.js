@@ -54,6 +54,7 @@ function kNavi() {
 		coordType: 'wgs84'
 	});
 }
+
 var appkey = 'l7xx15d07681e3e740d48cf2cbdd92eb24c0';
 
 function tNavi() {
