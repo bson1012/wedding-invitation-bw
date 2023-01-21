@@ -42,18 +42,18 @@ var lat = 37.5111873
 var lon = 127.0316618;
 var destination = '엘리에나 호텔';
 
-if (!Kakao.init) {
-	Kakao.init('33581ec31404af43397f6bf90c202f3a')
-}
+// if (!Kakao.init) {
+// 	Kakao.init('33581ec31404af43397f6bf90c202f3a')
+// }
 
-function kNavi() {
-	Kakao.Navi.start({
-		name: destination,
-		x: lon,
-		y: lat,
-		coordType: 'wgs84'
-	});
-}
+// function kNavi() {
+// 	Kakao.Navi.start({
+// 		name: destination,
+// 		x: lon,
+// 		y: lat,
+// 		coordType: 'wgs84'
+// 	});
+// }
 
 var appkey = 'l7xx15d07681e3e740d48cf2cbdd92eb24c0';
 
